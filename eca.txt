@@ -1,1 +1,1 @@
-student1,Football,Debate Club
+student1, Football,Debate Club
