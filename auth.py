@@ -47,7 +47,7 @@ def add_user(username, full_name, password, role):
 
 def delete_user(username):
     try:
-        for filename in ["user.txt", "data/passwords.txt"]:
+        for filename in ["user.txt", "password.txt"]:
             with open(filename, "r") as f:
                 lines = f.readlines()
             with open(filename, "w") as f:
